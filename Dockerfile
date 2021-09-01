@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:16.8.0-alpine3.13
 
 ENV LANG="C.UTF-8" PUPPETEER_SKIP_CHROMIUM_DOWNLOA=true
 
